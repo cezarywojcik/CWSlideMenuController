@@ -205,6 +205,8 @@
 # pragma mark - dynamic animator delegate methods
 
 - (void)dynamicAnimatorDidPause:(UIDynamicAnimator *)animator {
+    [self.collisionBehavior setTranslatesReferenceBoundsIntoBoundaryWithInsets:UIEdgeInsetsMake(0, -1*[self getViewWidth], 0, -1*[self getViewWidth])];
+    self.gravityBehavior.gravityDirection = CGVectorMake(0.0f, 0.0f);
     isAnimating = NO;
 }
 

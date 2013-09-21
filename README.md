@@ -40,6 +40,10 @@ Below is a sample usage of this control.
     mainViewController.btnRight.target = slideMenuControler;
     mainViewController.btnRight.action = @selector(rightViewControllerButton);
 
+## Additional Remarks
+
+Some of the code is based on the work of [Ash Furrow](https://github.com/TeehanLax/UIKit-Dynamics-Example).
+
 ## License
 
     The MIT License (MIT)

@@ -7,6 +7,10 @@
 //
 
 #import "CWAppDelegate.h"
+#import "CWSlideMenuController.h"
+#import "CWLeftViewController.h"
+#import "CWMainViewController.h"
+#import "CWRightViewController.h"
 
 @implementation CWAppDelegate
 
@@ -19,6 +23,25 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    // make view controllers
+    CWSlideMenuController *slideMenuControler = [CWSlideMenuController new];
+    CWLeftViewController *leftViewController = [[CWLeftViewController alloc] initWithNibName:@"CWLeftViewController" bundle:nil];
+    CWMainViewController *mainViewController = [[CWMainViewController alloc] initWithNibName:@"CWMainViewController" bundle:nil];
+    CWRightViewController *rightViewController = [[CWRightViewController alloc] initWithNibName:@"CWRightViewController" bundle:nil];
+
+    // assign view controllers in slide menu controller
+    slideMenuControler.leftViewController = leftViewController;
+    slideMenuControler.mainViewController = mainViewController;
+    slideMenuControler.rightViewController = rightViewController;
+
+    // link actions
+    mainViewController.btnLeft.target = slideMenuControler;
+    mainViewController.btnLeft.action = @selector(leftViewControllerButton);
+    mainViewController.btnRight.target = slideMenuControler;
+    mainViewController.btnRight.action = @selector(rightViewControllerButton);
+
+    // add root view controller
+    self.window.rootViewController = slideMenuControler;
     [self.window makeKeyAndVisible];
     return YES;
 }

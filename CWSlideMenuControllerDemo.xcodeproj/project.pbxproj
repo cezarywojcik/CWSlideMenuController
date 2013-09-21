@@ -22,6 +22,13 @@
 		CE88833D17ECBB3B00A6F491 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE88832117ECBB3A00A6F491 /* CoreData.framework */; };
 		CE88834517ECBB3B00A6F491 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE88834317ECBB3B00A6F491 /* InfoPlist.strings */; };
 		CE88834717ECBB3B00A6F491 /* CWSlideMenuControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88834617ECBB3B00A6F491 /* CWSlideMenuControllerDemoTests.m */; };
+		CE88835317ECBB8D00A6F491 /* CWSlideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88835217ECBB8D00A6F491 /* CWSlideMenuController.m */; };
+		CE88835717ECBEB600A6F491 /* CWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88835517ECBEB600A6F491 /* CWMainViewController.m */; };
+		CE88835817ECBEB600A6F491 /* CWMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE88835617ECBEB600A6F491 /* CWMainViewController.xib */; };
+		CE88836017ECBF1800A6F491 /* CWLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88835E17ECBF1800A6F491 /* CWLeftViewController.m */; };
+		CE88836117ECBF1800A6F491 /* CWLeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE88835F17ECBF1800A6F491 /* CWLeftViewController.xib */; };
+		CE88836517ECBF3100A6F491 /* CWRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE88836317ECBF3100A6F491 /* CWRightViewController.m */; };
+		CE88836617ECBF3100A6F491 /* CWRightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE88836417ECBF3100A6F491 /* CWRightViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,17 @@
 		CE88834217ECBB3B00A6F491 /* CWSlideMenuControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CWSlideMenuControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
 		CE88834417ECBB3B00A6F491 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE88834617ECBB3B00A6F491 /* CWSlideMenuControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWSlideMenuControllerDemoTests.m; sourceTree = "<group>"; };
+		CE88835117ECBB8D00A6F491 /* CWSlideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWSlideMenuController.h; sourceTree = "<group>"; };
+		CE88835217ECBB8D00A6F491 /* CWSlideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWSlideMenuController.m; sourceTree = "<group>"; };
+		CE88835417ECBEB600A6F491 /* CWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWMainViewController.h; sourceTree = "<group>"; };
+		CE88835517ECBEB600A6F491 /* CWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWMainViewController.m; sourceTree = "<group>"; };
+		CE88835617ECBEB600A6F491 /* CWMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CWMainViewController.xib; sourceTree = "<group>"; };
+		CE88835D17ECBF1800A6F491 /* CWLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLeftViewController.h; sourceTree = "<group>"; };
+		CE88835E17ECBF1800A6F491 /* CWLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWLeftViewController.m; sourceTree = "<group>"; };
+		CE88835F17ECBF1800A6F491 /* CWLeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CWLeftViewController.xib; sourceTree = "<group>"; };
+		CE88836217ECBF3100A6F491 /* CWRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWRightViewController.h; sourceTree = "<group>"; };
+		CE88836317ECBF3100A6F491 /* CWRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWRightViewController.m; sourceTree = "<group>"; };
+		CE88836417ECBF3100A6F491 /* CWRightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CWRightViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +102,7 @@
 		CE88830F17ECBB3A00A6F491 = {
 			isa = PBXGroup;
 			children = (
+				CE88835017ECBB7700A6F491 /* CWSlideMenuController */,
 				CE88832317ECBB3A00A6F491 /* CWSlideMenuControllerDemo */,
 				CE88834017ECBB3B00A6F491 /* CWSlideMenuControllerDemoTests */,
 				CE88831A17ECBB3A00A6F491 /* Frameworks */,
@@ -119,6 +138,7 @@
 				CE88832D17ECBB3A00A6F491 /* CWAppDelegate.m */,
 				CE88833217ECBB3A00A6F491 /* Images.xcassets */,
 				CE88832F17ECBB3A00A6F491 /* CWSlideMenuControllerDemo.xcdatamodeld */,
+				CE88835917ECBED300A6F491 /* View Controllers */,
 				CE88832417ECBB3A00A6F491 /* Supporting Files */,
 			);
 			path = CWSlideMenuControllerDemo;
@@ -151,6 +171,55 @@
 				CE88834317ECBB3B00A6F491 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE88835017ECBB7700A6F491 /* CWSlideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				CE88835117ECBB8D00A6F491 /* CWSlideMenuController.h */,
+				CE88835217ECBB8D00A6F491 /* CWSlideMenuController.m */,
+			);
+			path = CWSlideMenuController;
+			sourceTree = "<group>";
+		};
+		CE88835917ECBED300A6F491 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE88835B17ECBEEF00A6F491 /* CWLeftViewController */,
+				CE88835A17ECBEE600A6F491 /* CWMainViewController */,
+				CE88835C17ECBEF800A6F491 /* CWRightViewController */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CE88835A17ECBEE600A6F491 /* CWMainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE88835417ECBEB600A6F491 /* CWMainViewController.h */,
+				CE88835517ECBEB600A6F491 /* CWMainViewController.m */,
+				CE88835617ECBEB600A6F491 /* CWMainViewController.xib */,
+			);
+			name = CWMainViewController;
+			sourceTree = "<group>";
+		};
+		CE88835B17ECBEEF00A6F491 /* CWLeftViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE88835D17ECBF1800A6F491 /* CWLeftViewController.h */,
+				CE88835E17ECBF1800A6F491 /* CWLeftViewController.m */,
+				CE88835F17ECBF1800A6F491 /* CWLeftViewController.xib */,
+			);
+			name = CWLeftViewController;
+			sourceTree = "<group>";
+		};
+		CE88835C17ECBEF800A6F491 /* CWRightViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE88836217ECBF3100A6F491 /* CWRightViewController.h */,
+				CE88836317ECBF3100A6F491 /* CWRightViewController.m */,
+				CE88836417ECBF3100A6F491 /* CWRightViewController.xib */,
+			);
+			name = CWRightViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +270,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Cezary Wojcik";
 				TargetAttributes = {
+					CE88831717ECBB3A00A6F491 = {
+						DevelopmentTeam = QMZH6X9D3C;
+					};
 					CE88833717ECBB3A00A6F491 = {
 						TestTargetID = CE88831717ECBB3A00A6F491;
 					};
@@ -230,7 +302,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE88832817ECBB3A00A6F491 /* InfoPlist.strings in Resources */,
+				CE88836117ECBF1800A6F491 /* CWLeftViewController.xib in Resources */,
 				CE88833317ECBB3A00A6F491 /* Images.xcassets in Resources */,
+				CE88836617ECBF3100A6F491 /* CWRightViewController.xib in Resources */,
+				CE88835817ECBEB600A6F491 /* CWMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +325,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE88832E17ECBB3A00A6F491 /* CWAppDelegate.m in Sources */,
+				CE88836017ECBF1800A6F491 /* CWLeftViewController.m in Sources */,
 				CE88832A17ECBB3A00A6F491 /* main.m in Sources */,
+				CE88835317ECBB8D00A6F491 /* CWSlideMenuController.m in Sources */,
+				CE88835717ECBEB600A6F491 /* CWMainViewController.m in Sources */,
+				CE88836517ECBF3100A6F491 /* CWRightViewController.m in Sources */,
 				CE88833117ECBB3A00A6F491 /* CWSlideMenuControllerDemo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CWSlideMenuControllerDemo/CWSlideMenuControllerDemo-Prefix.pch";
 				INFOPLIST_FILE = "CWSlideMenuControllerDemo/CWSlideMenuControllerDemo-Info.plist";
@@ -385,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CWSlideMenuControllerDemo/CWSlideMenuControllerDemo-Prefix.pch";
 				INFOPLIST_FILE = "CWSlideMenuControllerDemo/CWSlideMenuControllerDemo-Info.plist";
